@@ -1,3 +1,35 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+h1 {
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #414a4c;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+    font-family: OCR A Std, monospace;
+  
+  }
+  
+  .topnav a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
