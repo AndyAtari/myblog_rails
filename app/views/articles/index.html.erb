@@ -4,8 +4,10 @@
     <div class="article">
     <h2><%= article.title %></h2>
     <p><%= article.description %></p>
+    <%= link_to 'Edit Blog Post', edit_article_path(article) %>
     </div>
 <% end %>
+<br>
 
 <div class="article">
 <%= link_to 'NEW ARTICLE', new_article_path %>
