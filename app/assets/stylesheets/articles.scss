@@ -2,50 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.article {
-    text-align: center;
-}
 
-#error_explanation {
-    color: red;
-  }
-
-.field_with_errors input {
-    border: 1px solid red !important;
-  }
-
-  
-  table {
-    width: 85%;
-    border-collapse: collapse;
-    margin-left:auto; 
-    margin-right:auto;
-    white-space: nowrap;
-  }
-
-  table, th, td {
-    border: 1px solid  #d7dbdd;
-  }
-
-  th {
-    height: 50px;
-    font-size: 25px;
-  }
-
-  td {
-    height: 75px;
-    font-size: 20px;
-  }
-
-  input[type=text], select {
-    width: 30%;
-    padding: 10px 20px;
-    margin: 0px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: large;
-  }
 
  
