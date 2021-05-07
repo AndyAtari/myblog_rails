@@ -27,3 +27,7 @@
 </div>
 
 <% end %> 
+
+<div class="article">
+<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>
+</div> 

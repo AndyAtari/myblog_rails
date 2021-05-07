@@ -4,5 +4,6 @@
 <p>
 <b>Description:</b> <%= @article.description %>
 </p> 
-<%= link_to 'Edit Blog Post', edit_article_path(@article) %>
+<%= link_to 'Edit Blog Post', edit_article_path(@article) %><br><br> 
+<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>
 </div> 
