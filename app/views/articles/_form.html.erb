@@ -9,22 +9,26 @@
 <% end %>
 </div> 
 
+
 <%= form_for @article do |f| %>
-<div class="article"> 
+ 
 
 <h2>
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title , class: "form-control  form-control-lg" %>
 </h2>
+
 
 <h2>
     <%= f.label :description %><br> 
-    <%= f.text_area :description %> 
+    <%= f.text_area :description, class: "form-control  form-control-lg", rows: "3" %> 
 </h2> 
+
 <p> 
     <%= f.submit %>
 </p>
-</div>
+
+
 
 <% end %> 
 
