@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Link from "./Link"
 
 class About extends React.Component {
   state = {
@@ -13,12 +14,14 @@ class About extends React.Component {
 
   render () {
     return (
-      <React.Fragment>
+      <div>
         <a onClick={this.handleClick.bind(this)} href="*">
-          <h1>This is all about me</h1>
+          <h1>This is all me...</h1>
         </a>
-        {this.state.showAbout && <img src ="Warlock_Stasis_1.jpg" alt="Ruby Dev"></img> }
-      </React.Fragment>
+        {this.state.showAbout && <Link /> }
+        
+      </div>
+      
     );
   }
 }
